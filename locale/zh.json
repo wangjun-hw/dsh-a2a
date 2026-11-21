@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "A2A 互操作桥",
+    "description": "将 DeepSeek Harness 智能体以 A2A 协议对外提供，并支持在对话中调用远端 A2A 智能体。在 /.well-known/agent-card.json 提供智能体卡片，新增带流式输出和任务生命周期的 JSON-RPC 端点及客户端工具。A2A 调用方会以所配置智能体预设的完整工具集运行，因此在把端点暴露到回环地址之外前请先设置认证令牌。"
+  }
+}

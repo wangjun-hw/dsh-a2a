@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "A2A bridge",
+    "description": "Serve DeepSeek Harness agents over the A2A protocol and call remote A2A agents from chat. Adds an HTTP agent card at /.well-known/agent-card.json, a JSON-RPC endpoint with streaming and task lifecycle, and client tools. A2A callers drive the configured agent preset with its full tools, so set an auth token before exposing the endpoint beyond loopback."
+  }
+}
